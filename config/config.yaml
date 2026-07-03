@@ -1,5 +1,12 @@
-adb_device: "emulator-5554"
-screen_width: 1080
-screen_height: 1920
-model_input_size: [224, 224]
-classes: ["jump", "slide", "nothing"]
+adbDevice: "emulator-5554"
+dataRoot: "data/raw"
+classes:
+  - jump
+  - slide
+  - nothing
+keys:
+  jump: "w"
+  slide: "s"
+  nothing: "space"
+exitKey: "escape"
+screenshotDelay: 0.05
