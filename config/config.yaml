@@ -1,0 +1,5 @@
+adb_device: "emulator-5554"
+screen_width: 1080
+screen_height: 1920
+model_input_size: [224, 224]
+classes: ["jump", "slide", "nothing"]
