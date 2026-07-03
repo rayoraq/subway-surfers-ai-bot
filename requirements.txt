@@ -1,10 +1,13 @@
 absl-py==2.4.0
 adbauto==1.0.9
+adbutils==2.12.0
 astunparse==1.6.3
 certifi==2026.6.17
 cffi==2.0.0
 charset-normalizer==3.4.7
 cryptography==45.0.7
+decorator==5.3.1
+deprecation==2.1.0
 flatbuffers==25.12.19
 gast==0.4.0
 google-auth==2.55.1
@@ -14,6 +17,7 @@ grpcio==1.74.0
 h5py==3.16.0
 idna==3.18
 keras==2.13.1
+keyboard==0.13.5
 libclang==18.1.1
 Markdown==3.10.2
 MarkupSafe==3.0.3
@@ -27,8 +31,10 @@ protobuf==4.25.9
 pyasn1==0.6.3
 pyasn1_modules==0.4.2
 pycparser==3.0
+PyYAML==6.0.3
 requests==2.34.2
 requests-oauthlib==2.0.0
+retry2==0.9.5
 six==1.17.0
 tensorboard==2.13.0
 tensorboard-data-server==0.7.2
